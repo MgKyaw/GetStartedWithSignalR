@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingalR.JS", "SingalR.JS\Si
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRWebpack", "SignalRWebpack\SignalRWebpack.csproj", "{71A77E72-9A98-480E-8365-D18B9B54C034}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorSignalRApp", "BlazorSignalRApp\BlazorSignalRApp.csproj", "{ED741394-A0E6-4534-8A54-F890A542F589}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +23,15 @@ Global
 		{71A77E72-9A98-480E-8365-D18B9B54C034}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71A77E72-9A98-480E-8365-D18B9B54C034}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71A77E72-9A98-480E-8365-D18B9B54C034}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED741394-A0E6-4534-8A54-F890A542F589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED741394-A0E6-4534-8A54-F890A542F589}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED741394-A0E6-4534-8A54-F890A542F589}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED741394-A0E6-4534-8A54-F890A542F589}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {537AC69B-E387-4C4C-BDFD-54DB77B632B0}
 	EndGlobalSection
 EndGlobal
