@@ -1,4 +1,5 @@
 using BlazorSignalRApp.Components;
+using BlazorSignalRApp.Hubs;
 using Microsoft.AspNetCore.ResponseCompression;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -34,5 +35,7 @@ app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
 
 app.UseResponseCompression();
+
+app.MapHub<ChatHub>("/chathub");
 
 app.Run();
